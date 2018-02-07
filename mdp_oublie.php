@@ -17,6 +17,7 @@
 		
 		<label for="mdp_oublie">Veuillez entrer votre e-mail pour recevoir un mail avec un lien de réinitialisation de votre mot de passe : </label><br/>
 		<input type="email" name="email" id="email" />
+		<input type="button" value="Envoyer"/>
     </div>
     
     <!-- Pied de page -->
