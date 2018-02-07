@@ -15,7 +15,7 @@
         
         <h2>Simpliathlon, un triathlon organisé top chrono !</h2>
 
-    	<form>
+    	<form method="post" action="connexion.php">
 	    	<label for="email">Votre e-mail : </label>
 		<input type="email" name="email" id="email" /><br/>
 		<label for="mdp">Votre mot de passe : </label>
