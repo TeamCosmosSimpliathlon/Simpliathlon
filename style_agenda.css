@@ -9,7 +9,7 @@ h1
   font-family: "Open Sans", sans-serif;
   text-transform: uppercase;
 }
-#table_projets 
+#table_agenda 
 {
   border: 1px solid silver; /*bordure grise autour de la table*/
   border-collapse: collapse;
@@ -18,20 +18,20 @@ h1
   width: 100%;
   table-layout: fixed;
 }
-#table_projets tr 
+#table_agenda tr 
 {
   background: white;
   border: 1px solid #ddd;
   padding: .35em;
 }
 
-#table_projets th,
-#table_projets td 
+#table_agenda th,
+#table_agenda td 
 {
   padding: .625em;
   text-align: center;
 }
-#table_projets th 
+#table_agenda th 
 {
   background-color: silver;
   font-size: .85em;
@@ -40,11 +40,11 @@ h1
 }
 @media screen and (max-width: 600px) 
 {
-#table_projets  {
+#table_agenda  {
 border: 0;
 }
 
-#table_projets thead 
+#table_agenda thead 
 {
   border: none;
   clip: rect(0 0 0 0);
@@ -55,20 +55,20 @@ border: 0;
   position: absolute;
   width: 1px;
 }
-#table_projets  tr 
+#table_agenda  tr 
 {
 border-bottom: 3px solid #ddd;
 display: block;
 margin-bottom: .625em;
 }
-#table_projets  th 
+#table_agenda  th 
 {
   border-bottom: 3px solid #ddd;
   display: block;
   margin-bottom: .625em;
  }
   
-#table_projets td 
+#table_agenda td 
 {
   border-bottom: 1px solid #ddd;
   display: block;
@@ -76,7 +76,7 @@ margin-bottom: .625em;
   text-align: right;
   text-align: center;
 }
-#table_projets  td:before 
+#table_agenda  td:before 
 {
     /*
     * aria-label has no advantage, it won't be read inside a table
@@ -87,7 +87,7 @@ float: left;
 font-weight: bold;
 text-transform: uppercase;
 }
-#table_projets  td:last-child 
+#table_agenda  td:last-child 
 {
 border-bottom: 0;
   }

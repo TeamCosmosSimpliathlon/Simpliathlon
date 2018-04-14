@@ -2,7 +2,8 @@
  body {
       margin: 0;
       padding: 0;
-      background: #D7DBDD;
+     background: #D7DBDD;
+     
 }
 .barre_menu ul{
       list-style: none; /*pour supprimer la liste à puces*/
